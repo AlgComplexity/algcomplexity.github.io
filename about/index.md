@@ -3,12 +3,10 @@ layout: default
 title: About
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
+Studying multivariate polynomials and their hardness based on the number of addition and multiplication operations required to compute it using algebraic circuits is known as {% newthought "Algebraic Complexity Theory" %}(ACT). This website intends to be a resource to learn this subject and a discussion place for the research community interested in the subject.
 
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
+A community thrives by its active members, their thoughts and suggestions. If you feel we can improve the discussions on this site, please feel free to contact the site administrators.
 
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
+## Credits
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
-
-
+The website is powered by [Tufte Theme](https://github.com/clayh53/tufte-jekyll/) for Jekyll.
