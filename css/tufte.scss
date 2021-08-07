@@ -241,7 +241,7 @@ section { padding-top: 1rem;
 ul,ol { width: 45%;
      -webkit-padding-start: 5%;
      -webkit-padding-end: 5%;
-     list-style-type: none; }
+     list-style-type: disc; }
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
 
@@ -375,6 +375,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 header > nav.group, body footer {
   width: 95%;
   padding-top: 2rem;
+  padding-bottom: 1.568rem;
 }
 
 nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
@@ -429,9 +430,11 @@ ul.footer-links li{
 //Full width page styling stuff
 
 body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
-       margin-left: auto;
+       //margin-left: auto;
        margin-right: auto;
        //padding: 0% 5%;
+       -webkit-padding-start: 0%;
+       margin-bottom: 1.568rem;
 
 }
 .full-width article p{
