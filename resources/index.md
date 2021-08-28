@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resources
+navlink: 2
 ---
 
 ## Textbooks

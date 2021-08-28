@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+navlink: 3
 ---
 
 Studying multivariate polynomials and their hardness based on the number of addition and multiplication operations required to compute it using algebraic circuits is known as {% newthought "Algebraic Complexity Theory" %}(ACT). This website intends to be a resource to learn this subject and a discussion place for the research community interested in the subject.
