@@ -4,7 +4,7 @@ title: Resources
 navlink: 2
 ---
 
-## Textbooks and Surveys
+## Textbooks and General Surveys
 
 - [Algebraic Complexity Theory](https://www.springer.com/gp/book/9783540605829)
 : _by Peter Bürgisser, Michael Clausen, and M. Amin Shokrollahi._
@@ -12,6 +12,10 @@ navlink: 2
 - [Arithmetic Circuits: a survey of recent results and open questions](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
 : _by [Amir Shpilka](https://www.cs.tau.ac.il/~shpilka/) and [Amir Yehudayoff](https://yehudayoff.net.technion.ac.il/)._
 
+## Focused Surveys
+
+- Progress on Polynomial Identity Testing [I](https://cse.iitk.ac.in/users/nitin/papers/pit-survey09.pdf) and [II](https://cse.iitk.ac.in/users/nitin/papers/pit-survey13.pdf)
+: _by[Nitin Saxena](https://cse.iitk.ac.in/users/nitin/). _
 
 - [A selection of lower bounds in arithmetic circuit complexity](https://github.com/dasarpmar/lowerbounds-survey/releases)
 : _by [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)._
@@ -21,7 +25,7 @@ navlink: 2
 : _by [Nitin Saxena](https://cse.iitk.ac.in/users/nitin/)._
 
 - [Algebraic Circuit Complexity](https://www.tifr.res.in/~ramprasad.saptharishi/courses/2017-ACC/)
-: _by [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)_
+: _by [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)._
 
 ## Workshops
 - [WACT 2016](https://www.cs.tau.ac.il/~shpilka/wact2016/)
