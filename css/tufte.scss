@@ -667,3 +667,38 @@ hr.slender {
   font-style: italic;
   font-size: large;
 }
+
+#sub-form{
+  margin-top: 1em;
+}
+
+.sub-btn{
+  display: inline-block;
+  margin-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  font-size: 1.4rem;
+  border: 1px solid;
+  background-color: $bg-color;
+  color: $contrast-color;
+}
+
+.email-input{
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: $text-color;
+  background-color: $bg-color;
+  height: 1.5em;
+  margin-right: 2em;
+  width: 35%;
+}
+
+.email-input::placeholder{
+  font-size: 1.4rem;
+  color: $text-color;
+}
+
+.email-input[type="text"]{
+  font-size: 1.4rem;
+}
