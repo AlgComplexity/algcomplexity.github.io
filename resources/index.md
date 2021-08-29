@@ -18,7 +18,7 @@ navlink: 2
 ## Focused Surveys
 
 - Progress on Polynomial Identity Testing [I](https://cse.iitk.ac.in/users/nitin/papers/pit-survey09.pdf) and [II](https://cse.iitk.ac.in/users/nitin/papers/pit-survey13.pdf)
-: _by[Nitin Saxena](https://cse.iitk.ac.in/users/nitin/). _
+: _by [Nitin Saxena](https://cse.iitk.ac.in/users/nitin/). _
 
 - [A selection of lower bounds in arithmetic circuit complexity](https://github.com/dasarpmar/lowerbounds-survey/releases)
 : _by [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)._
