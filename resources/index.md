@@ -18,7 +18,7 @@ navlink: 2
 ## Focused Surveys
 
 - Progress on Polynomial Identity Testing [I](https://cse.iitk.ac.in/users/nitin/papers/pit-survey09.pdf) and [II](https://cse.iitk.ac.in/users/nitin/papers/pit-survey13.pdf)
-: _by [Nitin Saxena](https://cse.iitk.ac.in/users/nitin/). _
+: _by [Nitin Saxena](https://cse.iitk.ac.in/users/nitin/)._
 
 - [A selection of lower bounds in arithmetic circuit complexity](https://github.com/dasarpmar/lowerbounds-survey/releases)
 : _by [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)._
@@ -30,7 +30,7 @@ navlink: 2
 : _by [Mrinal Kumar](https://mrinalkr.bitbucket.io/) and [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)_
 
 - [Recent Progress on Matrix Rigidity](https://arxiv.org/pdf/2009.09460.pdf)
-: __by C. Ramya_
+: _by C. Ramya_
 
 ## Courses
 - [Arithmetic Circuit Complexity](https://cse.iitk.ac.in/users/nitin/courses/CS748-2018-19-II/index.html)
