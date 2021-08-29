@@ -12,6 +12,9 @@ navlink: 2
 - [Arithmetic Circuits: a survey of recent results and open questions](https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf)
 : _by [Amir Shpilka](https://www.cs.tau.ac.il/~shpilka/) and [Amir Yehudayoff](https://yehudayoff.net.technion.ac.il/)._
 
+- [Algebraic Complexity Classes](https://arxiv.org/abs/1307.3863)
+: _by [Meena Mahajan](https://www.imsc.res.in/~meena/)_
+
 ## Focused Surveys
 
 - Progress on Polynomial Identity Testing [I](https://cse.iitk.ac.in/users/nitin/papers/pit-survey09.pdf) and [II](https://cse.iitk.ac.in/users/nitin/papers/pit-survey13.pdf)
@@ -19,6 +22,15 @@ navlink: 2
 
 - [A selection of lower bounds in arithmetic circuit complexity](https://github.com/dasarpmar/lowerbounds-survey/releases)
 : _by [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)._
+
+- [Noncommutative Arithmetic Circuits meet Finite Automata](https://www.imsc.res.in/~arvind/columns/column104.pdf)
+: _by [V. Arvind](https://www.imsc.res.in/~arvind/)_
+
+- [Hardness-Randomness Tradeoffs for Algebraic Computation](https://mrinalkr.bitbucket.io/papers/hardness-randomness-survey.pdf)
+: _by [Mrinal Kumar](https://mrinalkr.bitbucket.io/) and [Ramprasad Saptharishi](https://www.tifr.res.in/~ramprasad.saptharishi/)_
+
+- [Recent Progress on Matrix Rigidity](https://arxiv.org/pdf/2009.09460.pdf)
+: __by C. Ramya_
 
 ## Courses
 - [Arithmetic Circuit Complexity](https://cse.iitk.ac.in/users/nitin/courses/CS748-2018-19-II/index.html)
