@@ -1,31 +1,42 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>ACT Blog</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 Jan 2022 23:50:57 +0530</pubDate>
+    <lastBuildDate>Sat, 29 Jan 2022 23:50:57 +0530</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Contribution</title>
+        <description>&lt;p&gt;A community thrives with the participation of its members. Developing a one-stop destination for all interested in ACT, we would need a lot of help. In this text I will brief on different ways one could contribute on this website.&lt;/p&gt;
+
+&lt;h2 id=&quot;blog-posts&quot;&gt;Blog Posts&lt;/h2&gt;
+
+&lt;p&gt;We are interested in posts on the broad topics of algebraic complexity, computational algebra, algebraic techniques in theoretical computer science and combinatorics. You can post about informal summaries of your own papers, expositions on papers written by others, surveys on specific topics, alternative proofs, open questions, anything that you find interesting&lt;/p&gt;
+
+&lt;p&gt;To make a post on the website, either email the site administrators or make a pull request on Github. In either case, editors will review the posts and approve once they are in the right format.&lt;/p&gt;
+
+&lt;p&gt;The posts must be written in markdown so that they can be posted with minimal effort. The math is rendered using MathJax with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&amp;lt;math&amp;gt;$&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&amp;lt;math&amp;gt;$&lt;/code&gt; as inline and block delimiters. Look at the source of published posts on Github for examples of usage.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;We are maintining a page to collate helpful resources on various topics. Our aim is to have a comprehensive list of text books, surveys, courses and workshops and talks. We would appreciate inputs from everyone to keep this list growing. Contributions on this page can be made again in two ways - inform the site administrator or make a pull request.&lt;/p&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+
+&lt;p&gt;Engaging with comments on posts with valuable insights, errors (typographical or otherwise), and most importantly follow up questions.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Aug 2020 16:16:04 +0530</pubDate>
+        <link>/articles/20/Contribute</link>
+        <guid isPermaLink="true">/articles/20/Contribute</guid>
+        
+        
+        <category>general</category>
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>

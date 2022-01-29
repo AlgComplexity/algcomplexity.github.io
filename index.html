@@ -1,18 +1,169 @@
----
-layout: default
-title: blog
-# Note that this index page uses a full-width layout!
-navlink: 1
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- <h1 class="content-listing-header sans">Posts</h1> -->
+  <title>blog</title>
+  <meta name="description" content="">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/">
+
+  <link rel="alternate" type="application/rss+xml" title="ACT Blog" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+		<div class="title">
+			<a href="/">Algebraic Complexity Theory</a>
+		</div>
+		<div class="nav-links">
+			
+			
+				
+			
+				
+					
+					<a href="/css/print.css"></a>
+					
+				
+			
+				
+			
+				
+					
+					<a class="active" href="/">blog</a>
+					
+				
+			
+				
+					
+					<a href="/resources/">Resources</a>
+					
+				
+			
+				
+					
+					<a href="/about/">About</a>
+					
+				
+			
+		</div>
+	</nav>
+</header>
+    <article class="group">
+        <!-- <h1 class="content-listing-header sans">Posts</h1> -->
   <ul class="content-listing ">
-    {% for post in site.posts %}      
+          
         <li class="listing">
           <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
+          <a href="/articles/20/Contribute"><h3 class="contrast">Contribution</h3></a>
+          <br><span class="smaller">August 7, 2020</span>  <br/>
+          <div><p>A community thrives with the participation of its members. Developing a one-stop destination for all interested in ACT, we would need a lot of help. In this text I will brief on different ways one could contribute on this website.</p>
+
+<h2 id="blog-posts">Blog Posts</h2>
+
+<p>We are interested in posts on the broad topics of algebraic complexity, computational algebra, algebraic techniques in theoretical computer science and combinatorics. You can post about informal summaries of your own papers, expositions on papers written by others, surveys on specific topics, alternative proofs, open questions, anything that you find interesting</p>
+
+<p>To make a post on the website, either email the site administrators or make a pull request on Github. In either case, editors will review the posts and approve once they are in the right format.</p>
+
+<p>The posts must be written in markdown so that they can be posted with minimal effort. The math is rendered using MathJax with <code class="language-plaintext highlighter-rouge">$&lt;math&gt;$</code> and <code class="language-plaintext highlighter-rouge">$&lt;math&gt;$</code> as inline and block delimiters. Look at the source of published posts on Github for examples of usage.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>We are maintining a page to collate helpful resources on various topics. Our aim is to have a comprehensive list of text books, surveys, courses and workshops and talks. We would appreciate inputs from everyone to keep this list growing. Contributions on this page can be made again in two ways - inform the site administrator or make a pull request.</p>
+
+<h2 id="comments">Comments</h2>
+
+<p>Engaging with comments on posts with valuable insights, errors (typographical or otherwise), and most importantly follow up questions.</p>
+</div> 
         </li>
-    {% endfor %}
+    
   </ul>
+    </article>
+    <span class="print-footer">blog - ACT</span>
+    <footer>
+  <!-- 
+  <hr class="slender">
+  
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-google2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr3"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-rss2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//vimeo.com/vimeo-id"><span class="icon-vimeo2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/"><span class="icon-linkedin"></span></a>
+      </li>
+      
+  </ul>
+
+<div class="credits">
+<span>&copy; 2022 &nbsp;&nbsp;ACT</span></br> <br>
+<span>Powered by <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a>.</span> 
+</div>
+-->
+</footer>
+  </body>
+</html>
